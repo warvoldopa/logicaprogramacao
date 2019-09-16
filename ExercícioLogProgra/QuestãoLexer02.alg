@@ -1,4 +1,4 @@
-algoritmo "semnome
+algoritmo "Cargos_salarios"
  var
 Sal,aumento: real
 cod: inteiro

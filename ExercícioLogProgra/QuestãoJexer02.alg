@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "opcoes_menu"
 
 var
    X, calculo, N1, N2,S,raiz, numero: inteiro
