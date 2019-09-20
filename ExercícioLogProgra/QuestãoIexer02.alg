@@ -1,13 +1,16 @@
-algoritmo "media_aluno"
-
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 20/09/2019
+// Seção de Declarações 
 var
-  N1, N2, N3, M: real
+   N1, N2, N3, M, M_exame: real
 inicio
-      escreva ("Informe a primeira nota do aluno ")
+      escreval ("Informe a primeira nota do aluno: ")
       leia (N1)
-      escreva ("Informe a segunda nota do aluno ")
+      escreval ("Informe a segunda nota do aluno: ")
       leia (N2)
-      escreva ("informe a terceira nota do aluno ")
+      escreval ("informe a terceira nota do aluno: ")
       leia (N3)
       M <- (N1+N2+N3) /3
       escreval ("A media do aluno é ", M:4:2)
@@ -16,9 +19,10 @@ inicio
       Senao
            se (M > 3) e (M <=7) entao
               escreval ("Aluno EXAME")
-           senao
+              M_exame <- 6-M
+              escreval ("O aluno precisa tirar: ",M_exame)
+              senao
                 escreval ("Aluno REPROVADO")
            fimSe
       fimse
-
 fimalgoritmo
