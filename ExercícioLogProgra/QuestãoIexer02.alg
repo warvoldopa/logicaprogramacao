@@ -1,8 +1,5 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 20/09/2019
-// Seção de Declarações 
+algoritmo "Média_Aluno"
+
 var
    N1, N2, N3, M, M_exame: real
 inicio
